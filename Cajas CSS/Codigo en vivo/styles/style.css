@@ -1,0 +1,34 @@
+.primer-div {
+    background-color: red;
+    height: 12rem;
+    width: 12rem;
+
+    /* 
+       CArd
+       12 rem de alto y ancho TOTAL
+       2 rem de borde Azul
+       y 2 rem de padding
+
+    */
+    
+    display: inline-block;
+}
+
+.primer-div div {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.segundo-div {
+    background-color: red;
+    height: 12rem;
+    width: 12rem;
+    display: inline-block;
+}
+
+.segundo-div div {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
