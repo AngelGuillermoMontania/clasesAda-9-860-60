@@ -6,9 +6,7 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 
 ### [01 - Notificación](https://uidesigndaily.com/posts/sketch-notification-widget-day-855)
 
-### [02 - Verdulería](https://fm08n.csb.app/)
-
-### [03 - Banderas](https://www.countryflags.com/en/)
+### [02 - Banderas](https://www.countryflags.com/en/)
 
 - Creá 6 banderas, una debajo de la otra, usando `divs` 
 - Las banderas deben 300px de ancho y 200px de alto
@@ -33,14 +31,8 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 - Agregale tanto a la barra contenedora como a la de progreso un `border-radius` de `100px`
 - Agregarle a la barra contenedora un `padding` de `3px`
 
-### [04 - Habilidades](https://uidesigndaily.com/posts/sketch-skills-list-card-day-929)
+### [04 - Donación](https://uidesigndaily.com/posts/sketch-donate-widget-day-1038)
 
-### [05 - Donación](https://uidesigndaily.com/posts/sketch-donate-widget-day-1038)
+### [05 - Protección de cuenta](https://uidesigndaily.com/posts/sketch-protect-account-widget-day-975)
 
-### [06 - Tareas](https://i.imgur.com/CTzHqjK.png)
-
-### [07 - Protección de cuenta](https://uidesigndaily.com/posts/sketch-protect-account-widget-day-975)
-
-### [08 - Eventos](https://hj47o.csb.app/)
-
-### [09 - Card de Producto](https://tjq7t.csb.app/)
+### [06 - Card de Producto](https://tjq7t.csb.app/)

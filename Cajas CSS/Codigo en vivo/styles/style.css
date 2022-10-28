@@ -2,22 +2,26 @@
     background-color: red;
     height: 12rem;
     width: 12rem;
-
+    /* padding: 1rem;
+    border: blue 1rem solid; */
     /* 
-       CArd
+       Card
        12 rem de alto y ancho TOTAL
        2 rem de borde Azul
        y 2 rem de padding
-
+       vw ---> ViewportWidth
+       vh ---> viewportHeight
     */
-    
+    /* box-shadow: -22px 26px 21px -12px rgba(0,0,0,1); */
     display: inline-block;
 }
 
 .primer-div div {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #00c3fe;
+    /* box-shadow: -22px 26px 21px -1px red; */
+
 }
 
 .segundo-div {
