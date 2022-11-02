@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 800px;
+    border: solid black 2px;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+img {
+    width: 350px;
+}
+
+.contain-info {
+    border: 2px solid black;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}

@@ -1,0 +1,49 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Nanum Gothic';
+}
+
+header {
+    background-color: #141414;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contain-init {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+    padding-left: 1rem;
+}
+
+header .contain-init .contain-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 6rem;
+}
+
+header .contain-init .contain-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+header .contain-init .list-init {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+header .contain-profile {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
