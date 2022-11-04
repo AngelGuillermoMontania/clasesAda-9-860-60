@@ -1,0 +1,37 @@
+.A {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.B {
+    width: 450px;
+    height: 150vh;
+    background-color: blue;
+    position: relative;
+    z-index: 35;
+    top: 100px;
+}
+
+
+
+/* 
+    Relativo: 
+    * Ocupa el espacio original aunque lo mueva
+    * Me permite mover con top, right...
+
+    Absolute:
+    * Toma como referencia el body
+    * No ocupa el espacio original
+
+    Relative + Absolute
+
+    * Cuando hacemos relative al padre y absolute al
+    hijo. La referencia del absolute sera su contenedor
+    padre/relativo
+
+*/

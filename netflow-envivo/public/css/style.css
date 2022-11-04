@@ -4,6 +4,17 @@ a {
     font-family: 'Nanum Gothic';
 }
 
+h1,
+h2,
+p {
+   font-family: 'Nanum Gothic'; 
+   color: white;
+}
+
+body {
+    background-color: #141414;
+}
+
 header {
     background-color: #141414;
     height: 4rem;
@@ -11,6 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 9999;
 }
 
 header .contain-init {
@@ -46,4 +59,46 @@ header .contain-profile {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.contain-recommended {
+    background-image: url('../images/manifiesto.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.contain-recommended .description-recommended {
+    width: 35%;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.contain-recommended .description-recommended .type-recommended {
+    display: flex;
+    align-items: center;
+}
+
+.contain-recommended .description-recommended .type-recommended h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.contain-recommended .description-recommended .contain-buttonsRecommended button{
+    height: 2rem;
+    margin: 0 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.739);
+    color: white;
+}
+
+.contain-recommended .description-recommended #title-recommended {
+    font-size: 5rem;
+    text-transform: uppercase;
 }
