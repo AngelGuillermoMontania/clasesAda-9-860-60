@@ -1,0 +1,25 @@
+div {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+
+    div {
+        height: 300px;
+        width: 300px;
+        background-color: blue;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    div {
+        height: 450px;
+        width: 450px;
+        background-color: red;
+    }
+
+}

@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #141414;
-    height: 4rem;
+    height: 2rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,15 +31,15 @@ header .contain-init {
     justify-content: flex-start;
     align-items: center;
     width: 65%;
-    padding-left: 1rem;
 }
 
 header .contain-init .contain-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 6rem;
+    height: 1.5rem;
+    width: 4rem;
+    padding: 0.5rem;
 }
 
 header .contain-init .contain-logo img {
@@ -54,51 +54,138 @@ header .contain-init .list-init {
     width: 60%;
 }
 
+header .contain-init .list-init a {
+    font-size: 0.5rem;
+}
+
+header .contain-init .list-init #popular,
+header .contain-init .list-init #list,
+header .contain-init .list-init #idiom {
+    display: none;
+}
+
 header .contain-profile {
-    width: 15%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 0.5rem;
 }
 
 .contain-recommended {
     background-image: url('../images/manifiesto.jpg');
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
     background-size: cover;
-    height: 80vh;
+    padding-top: 3rem;
+    height: 15rem;
     width: 100%;
     position: relative;
 }
 
 .contain-recommended .description-recommended {
-    width: 35%;
+    width: 60%;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    bottom: 30%;
+    left: 5%;
 }
 
 .contain-recommended .description-recommended .type-recommended {
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
-.contain-recommended .description-recommended .type-recommended h2{
-    font-weight: bold;
+.contain-recommended .description-recommended .information-recommended {
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-recommended .description-recommended .information-recommended #title-recommended {
     font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contain-recommended .description-recommended .information-recommended p {
+    font-size: 0.5rem;
+}
+
+.contain-recommended .description-recommended .contain-buttonsRecommended {
+    display: flex;
+    justify-content: space-around;
 }
 
 .contain-recommended .description-recommended .contain-buttonsRecommended button{
-    height: 2rem;
+    height: 1.5rem;
     margin: 0 5px;
-    font-size: 1rem;
-    border-radius: 10px;
+    font-size: 0.5rem;
+    border-radius: 5px;
     border: none;
     background-color: rgba(128, 128, 128, 0.739);
     color: white;
+    font-weight: 900;
+    font-family: 'Nanum Gothic';
 }
 
-.contain-recommended .description-recommended #title-recommended {
-    font-size: 5rem;
+.contain-recommended .information-recommended h1 {
+    font-size: 2rem;
     text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+
+    header .contain-init {
+        width: 60%;
+    }
+
+    header .contain-init .contain-logo {
+        width: 6rem;
+    }
+
+    header .contain-init .list-init {
+        width: 80%;
+    }
+
+    header .contain-init .list-init a {
+        font-size: 0.7rem;
+    }
+
+    header .contain-init .list-init #popular,
+    header .contain-init .list-init #list {
+        display: block;
+    }
+
+    header .contain-profile {
+        font-size: 0.7rem;
+    }
+
+    .contain-recommended {
+        height: 22rem;
+    }
+
+    .contain-recommended .description-recommended {
+        width: 35%;
+    }
+
+    .contain-recommended .description-recommended .type-recommended {
+        display: flex;
+        align-items: center;
+    }
+
+    .contain-recommended .description-recommended .type-recommended img {
+        width: 0.5rem;
+        height: 1rem;
+    }
+
+    .contain-recommended .description-recommended .type-recommended img,
+    .contain-recommended .description-recommended .type-recommended h2 {
+        margin-left: 5px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        font-weight: 900;
+        font-size: 0.5rem;
+    }
+
+    .contain-recommended .description-recommended .contain-buttonsRecommended button {
+        font-size: 0.9rem;
+    }
+
 }

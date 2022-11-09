@@ -1,0 +1,28 @@
+.box-container {
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    position: relative;
+    margin: 10px 0;
+    background-color: rgba(128, 128, 128, 0.607);
+}
+
+.box-children {
+    position: absolute;
+    border-radius: 100px;
+    height: 85%;
+    background-color: green;
+}
+
+.box-ch1 {
+    width: 10%;
+}
+
+.box-ch2 {
+    width: 25%;
+}
+
+.box-ch3 {
+    width: 50%;
+}

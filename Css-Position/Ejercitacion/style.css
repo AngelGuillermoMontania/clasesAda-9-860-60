@@ -1,17 +1,35 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
 .box-gris {
     background-color: gray;
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
 }
 
 .box-red {
     background-color: red;
+    width: 60px;
+    height: 60px;
 }
 
 .box-green {
     background-color: green;
+    width: 30px;
+    height: 30px;
 }
 
-.box1 {
-    
+.box-red1 {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
 }
+
+.box-green1 {
+
+}
+
