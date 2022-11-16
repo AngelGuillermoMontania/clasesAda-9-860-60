@@ -1,0 +1,118 @@
+header {
+    background-color: var(--black);
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+header .contain-init {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+}
+
+header .contain-init .contain-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 4rem;
+    padding: 0.5rem;
+}
+
+header .contain-init .contain-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+header .contain-init .list-init {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+header .contain-init .list-init a {
+    font-size: 0.5rem;
+}
+
+header .contain-init .list-init #popular,
+header .contain-init .list-init #list,
+header .contain-init .list-init #idiom {
+    display: none;
+}
+
+header .contain-profile {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+    header .contain-init {
+        width: 60%;
+    }
+
+    header .contain-init .contain-logo {
+        width: 6rem;
+    }
+
+    header .contain-init .list-init {
+        width: 80%;
+    }
+
+    header .contain-init .list-init a {
+        font-size: 0.7rem;
+    }
+
+    header .contain-init .list-init #popular,
+    header .contain-init .list-init #list {
+        display: block;
+    }
+
+    header .contain-profile {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        height: 4rem;
+    }
+
+    header .contain-init {
+        margin-left: 2rem;
+    }
+
+    header .contain-init .contain-logo {
+        height: 2rem;
+        width: 9rem;
+    }
+
+    header .contain-init .list-init a {
+        font-size: 0.8rem;
+    }
+
+    header .contain-init .list-init #idiom {
+        display: block;
+    }
+
+    header .contain-profile {
+        width: 15%;
+    }
+
+    header .contain-profile a {
+        font-size: 0.8rem;
+    }
+
+}
