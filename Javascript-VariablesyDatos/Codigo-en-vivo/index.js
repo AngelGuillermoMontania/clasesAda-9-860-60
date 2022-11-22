@@ -114,13 +114,12 @@ se declara ==, !=
 OPERADORES DE COMPARACIÓN ESTRICTA
 se declara ===, !==
 ========================== */
-/* 
-10 === 15 //---> Estrictamente igual (mismo valor y tipo de dato)
+
+/* 10 === 15 //---> Estrictamente igual (mismo valor y tipo de dato)
 10 !== 15 //---> Compara si los operandos no son iguales y/o no del mismo tipo
 
-console.log(10 == "10") */
-
-
+console.log(10 == "10")
+ */
 /* ==========================
 OPERADORES RELACIONALES
 ========================== */
@@ -169,26 +168,47 @@ or   -----> || ----> o
 
 
 
+/* ==========================
+Template Strings
+
+========================== */
+
+/* const saludo = "Hola"
+const nombre = "Carla";
 
 
+console.log(`${saludo} 
+${nombre}`) */
+//console.log(saludo + " " + nombre)
+
+/* console.log(saludo + " " +
+nombre) */
 
 
+console.log(22 >= "22")
 
-/*
-let color = 'Verde';
-let noEsRojo = !(color == 'Rojo'); //---> Esto daría FALSE, pero como está negado, da TRUE
 
-    console.log(5 == "5")
+/* let color = 'Verde';
+let noEsRojo = !(color == 'Rojo'); */
+//             !(       false   )
+//              true
+
+/* console.error("Un nuevo error") */
+/* console.log(noEsRojo) */
+
+    /* console.log(5 == "5")
     console.log(5 === "5") */
-    /* console.log(5 == "7") */
-    /* console.log(5 !== "5") */
+    /* console.log(5 == "7") */ //false
+    /* console.log("5" !== 5) */
 
-    /* console.log("hello " + 5) */
+    /* console.log("hello " + 5) */            
     /* =======>   Convierte el 5 que esta del tipo number a tipo string */
 
 
+    //console.log(1 == true)
     //console.log(undefined == null)
     //console.log(undefined === null)
+
     //console.log(hello)
 
     /* EcmaScript6
@@ -202,14 +222,12 @@ let noEsRojo = !(color == 'Rojo'); //---> Esto daría FALSE, pero como está neg
     const edad = 17
     const saludar = `Hola! ${nombre}, soy de Jujuy, tengo ${edad}` */
 
-    /* console.error(saludar) */
-
 
 /* console.log("FUNCIONO PERFECTO, ME LINKIE") */
 
 /* alert("Hace click aca para ganar un millon de dolares?") */
-const datosDeRobo = prompt("Dame tu dni y cbu y te paso 5 millones de dolares?")
-console.log(datosDeRobo)
+/* const datosDeRobo = prompt("Dame tu dni y cbu y te paso 5 millones de dolares?")
+console.log(datosDeRobo) */
 /* const edad = prompt("Cual es tu edad?")
 const nombre = prompt("Cual es tu nombre?")
 console.log(`Hola, tu tienes ${edad} y te llamas ${nombre}`) */
