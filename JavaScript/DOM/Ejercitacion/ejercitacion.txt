@@ -1,0 +1,1 @@
+Realizar y probar cada uno de los comandos/metodos/funciones que se vieron en clase
