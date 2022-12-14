@@ -1,0 +1,215 @@
+@import url('./normalize.css');
+
+@font-face {
+    font-family: PokeSolid;
+    src: url('./fonts/Pokemon\ Solid.ttf');
+}
+
+@font-face {
+    font-family: PokeHollow;
+    src: url('./fonts/Pokemon\ Hollow.ttf');
+}
+
+body {
+    background-image: url('./images/ash-y-pikachu_mobile.jpg');
+    background-size: contain;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 3.5rem;
+    align-items: center;
+}
+
+header .contain-filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 65%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header .contain-filters button {
+    background-color:  rgba(161, 216, 50, 0.373);
+    border: none;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+}
+
+header #link-home {
+    font-family: PokeSolid;
+    color: yellowgreen;
+    font-size: 1.5rem;
+}
+
+main .contain-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    min-height: 100vh;
+}
+
+main .contain-cards .card {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.553);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 30px 5px white;
+    margin: 8px 0;
+}
+
+main .contain-cards .card .img-pokemon {
+    height: 100%;
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+
+main .contain-cards .card .contain-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 55%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.7rem;
+}
+
+main .contain-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .contain-pages button {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border: solid 1px black;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: black;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Para que el footer siempre quede debajo */
+    position: relative;
+    bottom: 0;
+
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 3rem;
+}
+
+footer .info {
+    color: white;
+    z-index: 9999;
+}
+
+@media (min-width: 768px) {
+    
+    header {
+        height: 5rem;
+    }
+
+    header .contain-filters {
+        min-width: 30%;
+        width: 45%;
+    }
+
+    header .contain-filters button {
+        font-size: 1.4rem;
+    }
+
+    header #link-home {
+        font-size: 2.2rem;
+    }
+
+    main .contain-cards .card {
+        height: 16rem;
+    }
+
+    main .contain-cards .card .contain-info {
+        font-size: 1.2rem;
+    }
+
+    main .contain-pages button {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image: url('./images/ash-y-pikachu_desktop.jpg');
+        background-size: contain;
+    }
+    
+    header .contain-filters button:hover {
+        cursor: pointer;
+        transform: scale(1.2)
+    }
+
+    header #link-home:hover {
+        text-shadow: -3px 3px 3px rgb(0, 8, 255);;
+    }
+
+    main .contain-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main .contain-cards .card {
+        width: 32rem;
+        margin: 1rem 0;
+        height: 12rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    main .contain-cards .card:hover {
+        box-shadow: inset 0px 0px 30px 150px white;
+        background-color: white;
+        transform: scale(1.1);
+    }
+
+    main .contain-cards .card .contain-info {
+        font-size: 1rem;
+    }
+
+    main .contain-pages button:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .desactived {
+        background-color: rgba(128, 128, 128, 0.426);
+        color: rgba(0, 0, 0, 0.394);
+    }
+
+    .desactived:hover {
+        cursor: default;
+        transform: scale(1);
+    }
+
+}
+
+@media (min-width: 1440px) {
+    
+    header #link-home {
+        font-size: 3rem;
+    }
+
+}
