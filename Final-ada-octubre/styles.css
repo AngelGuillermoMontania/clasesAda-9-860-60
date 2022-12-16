@@ -117,6 +117,8 @@ footer .info {
     z-index: 9999;
 }
 
+
+
 @media (min-width: 768px) {
     
     header {
@@ -194,16 +196,16 @@ footer .info {
         transform: scale(1.2);
     }
 
-    .desactived {
+    main .contain-pages .desactived {
         background-color: rgba(128, 128, 128, 0.426);
         color: rgba(0, 0, 0, 0.394);
     }
 
-    .desactived:hover {
+    main .contain-pages .desactived:hover {
         cursor: default;
         transform: scale(1);
     }
-
+    
 }
 
 @media (min-width: 1440px) {
